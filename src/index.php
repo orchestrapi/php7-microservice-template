@@ -10,5 +10,6 @@
     <h1>Se supone q esto es php</h1>
     <?php echo '<p>Hola Mundo</p>'; ?>
     <p>Mas cosas de php</p>
+    <p>Version: <?php echo getenv('VERSION');  ?></p>
 </body>
 </html>
