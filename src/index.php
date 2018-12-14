@@ -8,7 +8,11 @@
 </head>
 <body>
     <h1>PHP7 Template Project</h1>
-    <p>Version: <?php echo getenv('VERSION');  ?></p>
-    <p>Instance: <?php echo getenv('INSTANCE');  ?></p>
+    <footer>
+        <ul>
+            <li>Version: <?php echo getenv('VERSION'); ?></li>
+            <li>Instance: <?php echo getenv('INSTANCE'); ?></li>
+        </ul>
+    </footer>
 </body>
 </html>
